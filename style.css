@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,700&family=Open+Sans:wght@300&family=Roboto+Mono&family=Roboto+Slab:wght@600&display=swap');
+
+:root {
+    --primary-color: #873e23;
+    --secondary-color: #91623d;
+    --border-color: #000000;
+    --width-break: 600px
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+
+}
+
+.banana-heading {
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    padding: 1rem;
+    font-size: x-large;
+    margin-top: 2rem;
+    border: 2px solid var(--border-color);
+}
+
+.btn {
+
+    text-align: center;
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    font-size: large;
+    margin-right: 1rem;
+    display: inline;
+    cursor: pointer;
+    width: 100px;
+    min-height: 6vh;
+    border-radius: 1rem;
+    border: 2px solid var(--border-color);
+}
+
+#btn-clear {
+    background-color: var(--secondary-color);
+    font-size: large;
+    display: inline;
+    cursor: pointer;
+    width: 100px;
+    min-height: 6vh;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--border-color);
+}
+
+#output {
+    box-sizing: border-box;
+    min-height: 20vh;
+    width: 100%;
+    overflow: scroll;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+#footer-text {
+    font-size: medium;
+    font-weight: bold;
+
+}
